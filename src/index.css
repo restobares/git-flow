@@ -1,3 +1,21 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.body{
+    @apply bg-gray-200 w-screen
+}
+
+.btn {
+    @apply bg-gray-300 py-1 px-1
+}
+
+.inp {
+    @apply my-2 mx-2 border-b-2  border-gray-500 bg-gray-100 
+}
+
+.text {
+    @apply mx-2 text-xl
+}
