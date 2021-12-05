@@ -14,6 +14,8 @@ function TestComponent( /*{ prop1,prop2,prop3... }*/ ): JSX.Element {
 	return (
 		<>
 			<h2>TestComponent</h2>
+			{/* Here. Are you happy now?*/}
+			<p>Lorem Ipsum bla bla blagada blabla, blabidi blabidi blu.</p>
 		</>
 	);
 } 
